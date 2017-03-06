@@ -18,10 +18,79 @@
 @main-font-size: 100%;
 
 // Page Dimensions Variables:
-@container-width: 80%;
+@container-width: 95%;
+
+// Mixins:
+.no-decor {
+  text-decoration: none;
+  list-style: none;
+}
 
 // Page Body Styles:
 body {
   font-family: @main-font;
   font-size: @main-font-size;
+}
+
+.container {
+   width: @container-width;
+}
+
+
+// HEADER:
+.header {
+    width: 100%;
+}
+
+.header-left {
+  width: 40%;
+}
+
+.header-right {
+  width: 60%;
+}
+
+.header-logo {
+    max-width: 25%;
+    float: left;
+    padding: 3em 0 3em 0;
+}
+
+.nav-wrap {
+  float: right;
+}
+
+.header-nav li {
+   float: left;
+   padding: 3em 0 3em 5em;
+   .no-decor;
+
+   a {
+     font-size: 1.4em;
+     color: @main-font-grey;
+     .no-decor;
+   }
+}
+
+// SUB HEADER:
+.digital-experience {
+  width: 100%;
+  padding-top: 10em;
+
+  p {
+    text-align: center;
+    color: @darkest-font-color;
+    font-size: 7em;
+  }
+}
+
+.agency-for-digital {
+  width: 100%;
+  padding-top: 6em;
+
+  p {
+    text-align: center;
+    color: @main-font-grey;
+    font-size: 2.4em;
+  }
 }
