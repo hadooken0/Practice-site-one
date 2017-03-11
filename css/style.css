@@ -172,3 +172,57 @@ body {
   height: 3em;
   margin-top: 3em;
 }
+.perspective {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  margin-top: 15em;
+}
+.perspective p {
+  font-size: 2em;
+  color: #8e8e8e;
+  line-height: 2em;
+  letter-spacing: ;
+}
+.digital-brand {
+  margin-top: 35em;
+  width: 100%;
+  height: auto;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+.digital-brand-left {
+  padding: 15em 0 0 26em;
+}
+.digital-brand-right {
+  padding: 15em 0 0 30em;
+}
+.digital-brand-bottom {
+  text-align: center;
+}
+.digital-brand-bottom .devices {
+  max-width: 100%;
+}
+.par-top-digital {
+  font-size: 4em;
+  color: #3f3f3f;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+.par-middle-digital {
+  font-size: 1.3em;
+  color: #8e8e8e;
+  line-height: 2em;
+}
+.btn-1-digital {
+  width: 8em;
+  height: 3em;
+  margin-top: 3em;
+}
+.statement {
+  font-size: 1.6em;
+  line-height: 2.2em;
+  width: 70%;
+  color: #8e8e8e;
+}

@@ -7,9 +7,11 @@
 // Color Variables:
 @main-font-grey: #8e8e8e;
 @darkest-font-color: #101010;
+@charcol-color: #3F3F3F;
 @lavender-bg: #e4e9f8;
 @productivity-bg: #FBE8DA;
 @yellow-bg: #faf8d9;
+@concrete-bg: #F2F2F2;
 @project-request-bg: #c5c2f0;
 @our-services-bg: #dbdbdb;
 @footer-bg: #101010;
@@ -246,4 +248,72 @@ body {
   width: 8em;
   height: 3em;
   margin-top: 3em;
+}
+
+// PERSPECTIVE:
+.perspective {
+   width: 100%;
+   overflow: hidden;
+   background-color: white;
+   text-align: center;
+   margin-top: 15em;
+
+   p {
+     font-size: 2em;
+     color: @main-font-grey;
+     line-height: 2em;
+     letter-spacing: ;
+   }
+}
+
+
+// DIGITAL BRAND:
+.digital-brand {
+   margin-top: 35em;
+   width: 100%;
+   height: auto;
+   background-color: @concrete-bg;
+   overflow: hidden;
+}
+
+.digital-brand-left {
+   padding: 15em 0 0 26em;
+}
+
+.digital-brand-right {
+   padding: 15em 0 0 30em;
+}
+
+.digital-brand-bottom {
+  text-align: center;
+
+  .devices {
+    max-width: 100%;
+  }
+}
+
+.par-top-digital {
+  font-size: 4em;
+  color: @charcol-color;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+.par-middle-digital {
+  font-size: 1.3em;
+  color: @main-font-grey;
+  line-height: 2em;
+}
+
+.btn-1-digital {
+  width: 8em;
+  height: 3em;
+  margin-top: 3em;
+}
+
+.statement {
+  font-size: 1.6em;
+  line-height: 2.2em;
+  width: 70%;
+  color: @main-font-grey;
 }
