@@ -8,6 +8,7 @@
 @main-font-grey: #8e8e8e;
 @darkest-font-color: #101010;
 @charcol-color: #3F3F3F;
+@mine-shaft: #333333;
 @lavender-bg: #e4e9f8;
 @productivity-bg: #FBE8DA;
 @yellow-bg: #faf8d9;
@@ -33,6 +34,11 @@
   clear: both;
 }
 
+.white {
+  color: white;
+  font-size: 1em;
+}
+
 .gradient-lav {
   background-color: @lavender-bg;
   background-image: linear-gradient(to bottom, @lavender-bg 20%, #ffffff);
@@ -51,6 +57,11 @@
 .gradient-concrete {
   background-color: @concrete-bg;
   background-image: linear-gradient(to bottom, @concrete-bg 40%, #ffffff);
+}
+
+.gradient-above-footer {
+  background-color: @project-request-bg;
+  background-image: linear-gradient(to right, @project-request-bg 28%, #BFD0F0);
 }
 
 
@@ -405,6 +416,7 @@ body {
 
 // COMPANIES:
 .companies {
+
    .company-row {
      margin-top: 8em;
      text-align: center;
@@ -418,5 +430,220 @@ body {
 
 // ABOVE FOOTER:
 .above-footer {
+   margin-top: 19em;
+
+   .project-request {
+       padding: 4em 0 0 20em;
+       .gradient-above-footer;
+       width: 50%;
+       height: 30em;
+
+       h3 {
+         color: white;
+         font-size: 3em;
+       }
+
+       p {
+         color: white;
+         font-size: 1.5em;
+         line-height: 2em;
+         margin-top: 2em;
+       }
+
+       .btn-2 {
+         width: 7em;
+         height: 2.2em;
+         margin-top: 2em;
+       }
+   }
+
+   .our-services {
+       padding: 4em 0 0 20em;
+       background-color: @our-services-bg;
+       width: 50%;
+       height: 30em;
+
+       h3 {
+         color: @charcol-color;
+         font-size: 3em;
+       }
+
+       p {
+         color: @charcol-color;
+         font-size: 1.5em;
+         line-height: 2em;
+         margin-top: 2em;
+       }
+
+       .btn-2 {
+         width: 7em;
+         height: 2.2em;
+         margin-top: 2em;
+       }
+   }
+}
+
+
+// FOOTER:
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: @footer-bg;
+  overflow: hidden;
+
+  .footer-row-1 {
+     padding: 10em 0 0 18em;
+     width: 33%;
+
+     h3 {
+       color: white;
+       font-size: 3em;
+       padding-bottom: 0.5em;
+     }
+
+     .agency {
+       color: white;
+       font-size: 1.3em;
+       font-weight: 500;
+       margin-bottom: 6em;
+     }
+
+     p {
+       color: @mine-shaft;
+       font-size: 1.5em;
+       line-height: 2em;
+     }
+
+     .white {
+       .white;
+     }
+
+  }
+
+  .footer-row-2 {
+     padding: 16em 0 0 10em;
+     width: 33%;
+
+     h3 {
+       color: white;
+       font-size: 3em;
+       padding-bottom: 0.5em;
+     }
+
+     .agency {
+       color: white;
+       font-size: 1.3em;
+       font-weight: 500;
+       margin-bottom: 6em;
+     }
+
+     p {
+       color: @mine-shaft;
+       font-size: 1.5em;
+       line-height: 2em;
+     }
+
+     .white {
+       .white;
+     }
+
+  }
+
+  .footer-row-3 {
+     padding: 16em 0 0 10em;
+     width: 33%;
+
+     h3 {
+       color: white;
+       font-size: 3em;
+       padding-bottom: 0.5em;
+     }
+
+     .agency {
+       color: white;
+       font-size: 1.3em;
+       font-weight: 500;
+       margin-bottom: 6em;
+     }
+
+     p {
+       color: @mine-shaft;
+       font-size: 1.5em;
+       line-height: 2em;
+     }
+
+     .white {
+       .white;
+     }
+
+  }
+}
+
+
+// LOWER FOOTER:
+.lower-footer {
+  background-color: @footer-bg;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+
+  .above-footer-left {
+    width: 50%;
+    padding: 9em 10em 0 18em;
+  }
+
+  .above-footer-right {
+    width: 50%;
+    padding: 9em 20em 0 2em;
+  }
+
+  .white {
+    .white;
+  }
+
+  p {
+    color: @mine-shaft;
+    font-size: 1.5em;
+    line-height: 2em;
+  }
+}
+
+
+// COPYRIGHT:
+.copyright {
+  width: 100%;
+  height: auto;
+  background-color: @footer-bg;
+  overflow: hidden;
+
+  .copy-data {
+    color: @mine-shaft;
+    font-size: 1.5em;
+    margin-top: 5em;
+    padding: 0 0 3em 12em;
+  }
+
+  .imprint-policy  {
+    color: @mine-shaft;
+    font-size: 1.5em;
+    margin-top: 5em;
+    padding: 0 0 3em 4em;
+  }
+
+  .imprint-policy p {
+    float: left;
+    margin-left: 4em;
+  }
+
+  .social-icons {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-top: 5em;
+    padding: 0 0 3em 3em;
+  }
+
+  .social-icons i {
+    margin-left: 3em;
+  }
 
 }
