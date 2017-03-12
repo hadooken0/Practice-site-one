@@ -9,6 +9,22 @@
 .clear-fix {
   clear: both;
 }
+.gradient-lav {
+  background-color: #e4e9f8;
+  background-image: linear-gradient(to bottom, #e4e9f8 20%, #ffffff);
+}
+.gradient-orange {
+  background-color: #fbe8da;
+  background-image: linear-gradient(to top, #fbe8da 40%, #ffffff);
+}
+.gradient-yellow {
+  background-color: #faf8d9;
+  background-image: linear-gradient(to bottom, #fbe8da, #faf8d9 40%, #ffffff);
+}
+.gradient-concrete {
+  background-color: #f2f2f2;
+  background-image: linear-gradient(to bottom, #f2f2f2 40%, #ffffff);
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 100%;
@@ -80,6 +96,7 @@ body {
   height: 100em;
   margin-top: 15em;
   background-color: #e4e9f8;
+  background-image: linear-gradient(to bottom, #e4e9f8 20%, #ffffff);
   overflow: hidden;
 }
 .lavender-left {
@@ -113,6 +130,7 @@ body {
   height: 100em;
   margin-top: 0;
   background-color: #fbe8da;
+  background-image: linear-gradient(to top, #fbe8da 40%, #ffffff);
   overflow: hidden;
 }
 .white-left {
@@ -135,7 +153,7 @@ body {
   color: #101010;
   line-height: 2em;
 }
-.btn-1-w {
+.btn-w {
   width: 8em;
   height: 3em;
   margin-top: 3em;
@@ -145,6 +163,7 @@ body {
   height: 100em;
   margin-top: 0;
   background-color: #faf8d9;
+  background-image: linear-gradient(to bottom, #fbe8da, #faf8d9 40%, #ffffff);
   overflow: hidden;
 }
 .yellow-left {
@@ -190,6 +209,7 @@ body {
   width: 100%;
   height: auto;
   background-color: #f2f2f2;
+  background-image: linear-gradient(to bottom, #f2f2f2 40%, #ffffff);
   overflow: hidden;
 }
 .digital-brand-left {
