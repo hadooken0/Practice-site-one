@@ -4,6 +4,9 @@
   margin: 0;
 }
 
+// Imports:
+@import "media_queries.less";
+
 // Color Variables:
 @main-font-grey: #8e8e8e;
 @darkest-font-color: #101010;
@@ -82,6 +85,7 @@ body {
     position: fixed;
     background-color: white;
     z-index: 100;
+    padding: 0 5em;
 }
 
 .header-left {
@@ -100,18 +104,25 @@ body {
 
 .nav-wrap {
   float: right;
-  margin-right: 12em;
+  margin-right: 1em;
 }
 
 .header-nav li {
    float: left;
-   padding: 3em 0 3em 5em;
+   padding: 3em  0 3em 0;
+   margin-left: 3em;
    .no-decor;
 
    a {
      font-size: 1.4em;
      color: @main-font-grey;
+     font-weight: 600;
      .no-decor;
+   }
+
+   a:hover {
+     color: @charcol-color;
+     font-weight: 600;
    }
 }
 
@@ -157,6 +168,7 @@ body {
    color: @main-font-grey;
    font-size: 2em;
    padding-top: 5em;
+   margin-bottom: 10em;
 }
 
 // MAIN LAVANDER:

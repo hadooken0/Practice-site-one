@@ -2,6 +2,68 @@
   padding: 0;
   margin: 0;
 }
+@media (max-width: 1585px) {
+  .lavender-left .par-top {
+    font-size: 2em;
+    color: #101010;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .lavender-left .par-middle {
+    font-size: 1.7em;
+    color: #101010;
+    line-height: 1.3em;
+  }
+  .lavender-left .btn-1 {
+    width: 7em;
+    height: 2em;
+    margin-top: 2.5em;
+  }
+  .merc {
+    max-width: 60%;
+    margin-top: 16em;
+  }
+  .white-right .par-top-w {
+    font-size: 2em;
+    color: #101010;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .white-right .par-middle-w {
+    font-size: 1.7em;
+    color: #101010;
+    line-height: 1.2em;
+  }
+  .white-right .btn-w {
+    width: 7em;
+    height: 2em;
+    margin-top: 2.5em;
+  }
+  .white-left .zalando {
+    max-width: 60%;
+    margin-top: 16em;
+  }
+  .yellow-left .par-top-y {
+    font-size: 2em;
+    color: #101010;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .yellow-left .par-middle-y {
+    font-size: 1.7em;
+    color: #101010;
+    line-height: 1.2em;
+  }
+  .yellow-left .btn-1-y {
+    width: 7em;
+    height: 2em;
+    margin-top: 2.5em;
+  }
+  .yellow-right .zalando {
+    max-width: 60%;
+    margin-top: 16em;
+  }
+}
 .no-decor {
   text-decoration: none;
   list-style: none;
@@ -45,6 +107,7 @@ body {
   position: fixed;
   background-color: white;
   z-index: 100;
+  padding: 0 5em;
 }
 .header-logo {
   max-width: 25%;
@@ -53,19 +116,25 @@ body {
 }
 .nav-wrap {
   float: right;
-  margin-right: 12em;
+  margin-right: 1em;
 }
 .header-nav li {
   float: left;
-  padding: 3em 0 3em 5em;
+  padding: 3em  0 3em 0;
+  margin-left: 3em;
   text-decoration: none;
   list-style: none;
 }
 .header-nav li a {
   font-size: 1.4em;
   color: #8e8e8e;
+  font-weight: 600;
   text-decoration: none;
   list-style: none;
+}
+.header-nav li a:hover {
+  color: #3f3f3f;
+  font-weight: 600;
 }
 .scroll-fix {
   position: fixed;
@@ -98,6 +167,7 @@ body {
   color: #8e8e8e;
   font-size: 2em;
   padding-top: 5em;
+  margin-bottom: 10em;
 }
 .main-lavender {
   width: 100%;
