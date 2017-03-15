@@ -20,7 +20,7 @@
     margin-top: 2.5em;
   }
   .merc {
-    max-width: 60%;
+    max-width: 100%;
     margin-top: 16em;
   }
   .white-right .par-top-w {
@@ -62,6 +62,226 @@
   .yellow-right .zalando {
     max-width: 60%;
     margin-top: 16em;
+  }
+}
+@media (max-width: 1348px) {
+  .sub-header {
+    width: 100%;
+  }
+  .sub-header .digital-experience {
+    width: 100%;
+    padding-top: 20em;
+  }
+  .sub-header .digital-experience p {
+    text-align: center;
+    color: #101010;
+    font-size: 4em;
+  }
+  .sub-header .agency-for-digital {
+    width: 100%;
+    padding-top: 6em;
+  }
+  .sub-header .agency-for-digital p {
+    text-align: center;
+    color: #8e8e8e;
+    font-size: 1.7em;
+  }
+  .sub-header .arrow-down {
+    text-align: center;
+    color: #8e8e8e;
+    font-size: 1.4em;
+    padding-top: 5em;
+    margin-bottom: 10em;
+  }
+  .main-lavender {
+    width: 100%;
+    height: 100em;
+    margin-top: 15em;
+    background-color: #e4e9f8;
+    background-image: linear-gradient(to bottom, #e4e9f8 20%, #ffffff);
+    overflow: hidden;
+  }
+  .main-lavender .lavender-left {
+    padding: 10em 0 0 5em;
+  }
+  .perspective {
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    margin-top: 15em;
+  }
+  .perspective .col-lg-12 p {
+    font-size: 1.6em;
+    color: #8e8e8e;
+    line-height: 1.8em;
+  }
+}
+@media (max-width: 1189px) {
+  .footer .col-lg-4 .footer-row-1 {
+    padding: 6em 0 0 6em;
+  }
+  .footer .col-lg-4 .footer-row-2 {
+    padding: 16em 0 0 6em;
+  }
+  .footer .col-lg-4 .footer-row-3 {
+    padding: 16em 0 0 6em;
+  }
+  .lower-footer .col-lg-6 .above-footer-left {
+    padding: 9em 10em 0 6em;
+  }
+  .lower-footer .col-lg-6 .above-footer-right {
+    padding: 9em 10em 0 6em;
+  }
+  .copyright .col-lg-3 .copy-data {
+    padding: 0 0 3em 4em;
+  }
+  .copyright .col-lg-5 .imprint-policy {
+    padding: 0 0 3em 0em;
+  }
+  .copyright .col-lg-4 .social-icons {
+    padding: 0 0 3em 1em;
+  }
+}
+@media (max-width: 1200px) {
+  .header .col-lg-8 .nav-wrap .header-nav {
+    display: none;
+  }
+  .main-white .col-lg-5 .white-right {
+    padding: 5em 0 6em 5em;
+  }
+  .main-white .col-lg-7 .white-left .zalando {
+    width: 55%;
+  }
+  .col-lg-4 .yellow-left {
+    padding: 25em 2em 0 5em;
+  }
+  .col-lg-8 .yellow-right {
+    margin-top: 7em;
+  }
+  .col-lg-8 .yellow-right .bike {
+    width: 60%;
+    float: right;
+  }
+}
+@media (max-width: 755px) {
+  .digital-brand .col-lg-5 .digital-brand-left {
+    padding: 15em 0 0 6em;
+  }
+  .digital-brand .col-lg-5 .par-top-digital {
+    font-size: 2em;
+    color: #3f3f3f;
+    font-weight: 600;
+    line-height: 1.5em;
+  }
+  .digital-brand .col-lg-5 .par-middle-digital {
+    font-size: 1.1em;
+    color: #8e8e8e;
+    line-height: 2em;
+  }
+  .digital-brand .col-lg-5 .btn-1-digital {
+    width: 7em;
+    height: 2em;
+    margin-top: 2em;
+  }
+  .digital-brand .col-lg-7 .digital-brand-right {
+    padding: 15em 0 0 6em;
+  }
+  .digital-brand .col-lg-7 .statement {
+    font-size: 1.3em;
+    line-height: 2.1em;
+    width: 70%;
+    color: #8e8e8e;
+  }
+  .digital-brand .col-lg-7 .digital-brand-bottom {
+    text-align: center;
+  }
+  .digital-brand .col-lg-7 .digital-brand-bottom .devices {
+    max-width: 100%;
+  }
+  .testimonial .col-lg-12 .test-content {
+    padding: 15em 0 0 6em;
+  }
+  .testimonial .col-lg-12 .test-content i {
+    color: #3f3f3f;
+    font-size: 1.8em;
+  }
+  .testimonial .col-lg-12 .test-content .test-p-1 {
+    margin-top: 2em;
+    font-size: 1.3em;
+    line-height: 2em;
+    color: #8e8e8e;
+    width: 80%;
+  }
+  .testimonial .col-lg-12 .test-content .sascha-martin {
+    margin-top: 2em;
+    border-radius: 6em;
+    max-width: 100%;
+    width: 5em;
+    height: 5em;
+  }
+  .testimonial .col-lg-12 .test-content .sasha {
+    margin-top: 2em;
+    color: #3f3f3f;
+    font-size: 1.5em;
+  }
+  .testimonial .col-lg-12 .test-content .sasha-does {
+    margin-top: 2em;
+    color: #3f3f3f;
+    font-size: 1.2em;
+  }
+  .proud-to-work {
+    width: 100%;
+    text-align: center;
+    margin-top: 15em;
+    background-color: white;
+    overflow: hidden;
+    padding-bottom: 7em;
+  }
+  .proud-to-work .col-lg-12 p {
+    font-size: 1.4em;
+    color: #8e8e8e;
+  }
+  .above-footer .col-lg-6 .project-request {
+    padding: 4em 0 0 6em;
+    background-color: #c5c2f0;
+    background-image: linear-gradient(to right, #c5c2f0 28%, #bfd0f0);
+    height: 30em;
+  }
+  .above-footer .col-lg-6 .project-request h3 {
+    color: white;
+    font-size: 2em;
+  }
+  .above-footer .col-lg-6 .project-request p {
+    color: white;
+    font-size: 1.3em;
+    line-height: 2em;
+    margin-top: 2em;
+  }
+  .above-footer .col-lg-6 .project-request .btn-2 {
+    width: 7em;
+    height: 2.2em;
+    margin-top: 2em;
+  }
+  .above-footer .col-lg-6 .our-services {
+    padding: 4em 0 0 6em;
+    background-color: #dbdbdb;
+    height: 30em;
+  }
+  .above-footer .col-lg-6 .our-services h3 {
+    color: #3f3f3f;
+    font-size: 2em;
+  }
+  .above-footer .col-lg-6 .our-services p {
+    color: #3f3f3f;
+    font-size: 1.3em;
+    line-height: 2em;
+    margin-top: 2em;
+  }
+  .above-footer .col-lg-6 .our-services .btn-2 {
+    width: 7em;
+    height: 2.2em;
+    margin-top: 2em;
   }
 }
 .no-decor {
@@ -107,20 +327,17 @@ body {
   position: fixed;
   background-color: white;
   z-index: 100;
-  padding: 0 5em;
+  padding: 3em 7em;
 }
 .header-logo {
   max-width: 25%;
   float: left;
-  padding: 3em 0 3em 0;
 }
 .nav-wrap {
   float: right;
-  margin-right: 1em;
 }
 .header-nav li {
-  float: left;
-  padding: 3em  0 3em 0;
+  float: right;
   margin-left: 3em;
   text-decoration: none;
   list-style: none;
@@ -291,10 +508,10 @@ body {
   overflow: hidden;
 }
 .digital-brand-left {
-  padding: 15em 0 0 26em;
+  padding: 15em 0 0 27em;
 }
 .digital-brand-right {
-  padding: 15em 0 0 30em;
+  padding: 15em 0 0 20em;
 }
 .digital-brand-bottom {
   text-align: center;
@@ -388,7 +605,6 @@ body {
   padding: 4em 0 0 20em;
   background-color: #c5c2f0;
   background-image: linear-gradient(to right, #c5c2f0 28%, #bfd0f0);
-  width: 50%;
   height: 30em;
 }
 .above-footer .project-request h3 {
@@ -409,7 +625,6 @@ body {
 .above-footer .our-services {
   padding: 4em 0 0 20em;
   background-color: #dbdbdb;
-  width: 50%;
   height: 30em;
 }
 .above-footer .our-services h3 {
@@ -434,8 +649,7 @@ body {
   overflow: hidden;
 }
 .footer .footer-row-1 {
-  padding: 10em 0 0 18em;
-  width: 33%;
+  padding: 6em 0 0 18em;
 }
 .footer .footer-row-1 h3 {
   color: white;
@@ -459,7 +673,6 @@ body {
 }
 .footer .footer-row-2 {
   padding: 16em 0 0 10em;
-  width: 33%;
 }
 .footer .footer-row-2 h3 {
   color: white;
@@ -483,7 +696,6 @@ body {
 }
 .footer .footer-row-3 {
   padding: 16em 0 0 10em;
-  width: 33%;
 }
 .footer .footer-row-3 h3 {
   color: white;
@@ -512,11 +724,9 @@ body {
   height: auto;
 }
 .lower-footer .above-footer-left {
-  width: 50%;
   padding: 9em 10em 0 18em;
 }
 .lower-footer .above-footer-right {
-  width: 50%;
   padding: 9em 20em 0 2em;
 }
 .lower-footer .white {
